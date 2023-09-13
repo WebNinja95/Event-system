@@ -1,0 +1,75 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/summaryTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="20sp"
+        tools:ignore="HardcodedText"/>
+
+    <TextView
+        android:id="@+id/reportEvents"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="18sp"
+        tools:ignore="HardcodedText"/>
+
+    <TextView
+        android:id="@+id/approvedEvents"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="18sp"
+        tools:ignore="HardcodedText"/>
+
+    <TextView
+        android:id="@+id/rejectedEvents"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="18sp"
+        tools:ignore="HardcodedText"/>
+    <TextView
+        android:id="@+id/pointsFromEvents"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="18sp"
+        tools:ignore="HardcodedText"/>
+
+    <TextView
+        android:id="@+id/pointsFromReported"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="18sp"
+        tools:ignore="HardcodedText"/>
+
+    <TextView
+        android:id="@+id/comments_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/comments_title"
+        android:textSize="18sp"
+        tools:ignore="HardcodedText"/>
+
+    <ListView
+        android:id="@+id/commentsListView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="1dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        tools:listitem="@android:layout/simple_list_item_1"/>
+
+</LinearLayout>

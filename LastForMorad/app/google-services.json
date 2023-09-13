@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "909897925780",
+    "project_id": "evenst-65f26",
+    "storage_bucket": "evenst-65f26.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:909897925780:android:bf7901eb3df11fd129e081",
+        "android_client_info": {
+          "package_name": "com.example.eyalandmorad"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "909897925780-80a0tmqgmq39h6covrqo4cs2cegkf8dj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmFR0JdU9vLVjb0XxpvfDUwKrC792GhM4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "909897925780-80a0tmqgmq39h6covrqo4cs2cegkf8dj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

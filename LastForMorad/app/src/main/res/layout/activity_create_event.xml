@@ -1,0 +1,120 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@drawable/create_edit_background" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/create_event_title"
+        android:layout_marginTop="25dp"
+        android:textSize="24dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_marginTop="30dp">
+
+        <Spinner
+            android:id="@+id/spinnerEventType"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:entries="@array/event_types"
+            android:gravity="center"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/white"
+        android:text="@string/Description_title"
+        android:textSize="18dp"/>
+
+    <EditText
+        android:id="@+id/editTextDescription"
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:inputType="textMultiLine"
+        android:lines="3"
+        android:background="@color/white" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_marginTop="30dp"
+        android:text="@string/Location_title"
+        android:textSize="18dp"/>
+
+    <EditText
+        android:id="@+id/editTextLocation"
+        android:layout_width="match_parent"
+        android:textColor="@color/black"
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:background="@color/white" />
+
+    <Button
+        android:id="@+id/cameraBtn"
+        android:layout_width="wrap_content"
+        android:textColor="@color/white"
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content"
+        android:text="@string/Add_photo_btn" />
+
+    <ImageView
+        android:id="@+id/photo_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_marginTop="30dp">
+
+        <Spinner
+            android:id="@+id/spinnerArea"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:textColor="@color/white"
+            android:entries="@array/areas"
+            android:gravity="center" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_marginTop="30dp">
+
+        <Spinner
+            android:id="@+id/spinnerRiskLevel"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:entries="@array/risk_levels"
+            android:gravity="center" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/Submit_btn"
+        android:backgroundTint="@color/approval_green"
+        android:textColor="@color/black" />
+
+</LinearLayout>

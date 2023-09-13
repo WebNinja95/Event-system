@@ -1,0 +1,109 @@
+<resources>
+    <string name="app_name">Events_Final_Project</string>
+    <string name="event_list">my list</string>
+
+    <!--    Menu items buttons-->
+    <string name="ui_menu_sort">Sort events by date</string>
+    <string name="ui_menu_filter">Filter events</string>
+    <string name="ui_menu_add">add</string>
+    <string name="ui_menu_approved">Events I approved</string>
+    <string name="ui_menu_about">about</string>
+    <string name="ui_menu_reported_events">My reported events</string>
+    <string name="ui_menu_OwnSummary">Summary of your operations</string>
+    <string name="ui_menu_AppSummary">Summary of App operations</string>
+
+    <string name="create_event_title">Create a new event!</string>
+    <string name="edit_event_title">Edit event!</string>
+    <string name="Description_title">Description</string>
+    <string name="Location_title">Location</string>
+    <string name="Add_photo_btn">Add a photo</string>
+    <string name="Submit_btn">Submit</string>
+    <string name="Submit_changes_btn">Submit Changes</string>
+    <string name="Event_Details">Event Details</string>
+
+    <!--    own summery items-->
+    <string name="reported_events_number">Number of reported events:</string>
+    <string name="approved_events_number">Number of approved events:</string>
+    <string name="rejected_events_number">Number of rejected events:</string>
+    <string name="points_from_reports">Number of points from events that you approved/rejected:</string>
+
+
+    <!--    <string name="approve_btn">Approve</string>-->
+    <!--    <string name="reject_btn">Reject</string>-->
+    <string name="report_count">The event has %s times</string>
+    <string name="summary_title">Hello %s, here is your summary:</string>
+    <string name="filter_btn">FILTER</string>
+
+    <!--    event adapter buttons-->
+    <string name="remove_btn">Remove\nevent</string>
+    <string name="edit_btn">Edit\nevent</string>
+    <string name="report_btn">Report\nevent</string>
+    <string name="approval_btn">Approve\nevent</string>
+    <string name="comment_btn">add\nComment</string>
+    <string name="event_details_btn">View event details</string>
+
+    <!--    comments texts-->
+    <string name="comments_title">COMMENTS:</string>
+    <string name="add_comment">Add</string>
+    <string name="cancel_comment">Cancel</string>
+    <string name="edit_comment">Edit comment</string>
+    <string name="remove_comment">Remove comment</string>no_comments
+    <string name="no_comments">There are no comments yet!</string>
+    <string name="add_title">Add comment</string>
+    <string name="Edit_title">Edit</string>
+
+    <string name="login_btn">Login</string>
+    <string name="signUP_btn">Sign Up</string>
+    <string name="signUP_text">Don\'t have a user?</string>
+    <string name="login_text">Already have a user?</string>
+    <string name="login_title">Hello,\nPlease log in</string>
+    <string name="signUp_title">Enter your details\nto sign up</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="my_events_title">My Events</string>
+    <string name="events_that_i_approved">Events that I approved</string>
+
+    <string name="signup_error_email_exists">Email already exists!</string>
+    <string name="signup_error_invalid_email">Invalid email!</string>
+    <string name="signup_error_email_missing">Email missing!</string>
+    <string name="signup_error_invalid_password">Password have to have 6 chars at least!</string>
+    <string name="signup_error_default">Something wrong please try again later</string>
+
+    <string name="login_error_msg">Incorrect username or password!</string>
+    <string name="login_invalid_email">Invalid email!</string>
+
+
+    <string-array name="options_array">
+        <item>Add Event</item>
+        <item>Sort</item>
+        <item>Filter</item>
+    </string-array>
+
+    <string-array name="event_types">
+        <item>Event Type</item>
+        <item>HEALTH</item>
+        <item>ENVIRONMENT</item>
+        <item>OTHER</item>
+    </string-array>
+
+    <string-array name="areas">
+        <item>Area</item>
+        <item>NORTH_DISTRICT</item>
+        <item>HAIFA_DISTRICT</item>
+        <item>CENTRAL_DISTRICT</item>
+        <item>TEL_AVIV_DISTRICT</item>
+        <item>JERUSALEM_DISTRICT</item>
+        <item>SOUTH_DISTRICT</item>
+    </string-array>
+
+    <string-array name="risk_levels">
+        <item>Risk Level</item>
+        <item>LOW</item>
+        <item>MEDIUM</item>
+        <item>HIGH</item>
+    </string-array>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

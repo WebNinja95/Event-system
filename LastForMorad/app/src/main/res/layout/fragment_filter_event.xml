@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <Spinner
+        android:id="@+id/EventType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/event_types" />
+
+    <Spinner
+        android:id="@+id/Area"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/areas" />
+
+    <Spinner
+        android:id="@+id/RiskLevel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/risk_levels" />
+
+    <Button
+        android:id="@+id/buttonFilter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/filter_btn" />
+
+    <ListView
+        android:id="@+id/filteredEventListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
